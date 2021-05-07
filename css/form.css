@@ -1,0 +1,35 @@
+.form__fieldset {
+    background-color: rgba(206, 204, 204);
+    border: 2px solid hsl(0, 2%, 50%);
+    margin: 10px 0;
+}
+
+.form__legend {
+    background-color: rgb(68, 128, 206);
+    color: white;
+    padding: 5px;
+}
+
+.form__label {
+    width: 120px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.form__input {
+    max-width: 500px;
+    padding: 10px;
+    width: auto;
+}
+
+.form__button {
+    padding: 5px;
+    width: 120px;
+    background-color: rgb(68, 128, 206);
+    color: white;
+    border: none;
+}
+
+.form__button:hover {
+    background-color: rgb(18, 97, 201);
+}
